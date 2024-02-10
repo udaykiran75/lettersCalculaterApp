@@ -1,0 +1,82 @@
+.appContainer {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imgCalculator {
+  width: 350px;
+  height: 350px;
+}
+.head {
+  color: white;
+  font-family: Roboto;
+  font-size: 40px;
+  text-align: center;
+}
+.label {
+  color: white;
+  font-family: Roboto;
+  font-size: 20px;
+}
+.inputel {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: transparent;
+  font-size: 22px;
+  font-family: Roboto;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
+  width: 400px;
+  border-color: white;
+  color: white;
+  outline: none;
+  padding-left: 13px;
+}
+.calculatebtn {
+  margin-top: 30px;
+  background-color: white;
+  width: 300px;
+  color: #219a6f;
+  font-size: 30px;
+  border-radius: 14px;
+  padding: 20px;
+  font-weight: bold;
+  border: none;
+}
+.inputDiv{
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 992px) {
+  .appContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  .imgcontainer {
+    order: 1;
+  }
+  .contentContainer {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .imgCalculator {
+    width: 500px;
+    height: 500px;
+  }
+  .head {
+    font-size: 50px;
+    text-align: start;
+  }
+}
